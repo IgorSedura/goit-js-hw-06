@@ -9,5 +9,6 @@ textRef.style.fontSize = `${inputRef.value}px`;
 
 const textSize = (event) => {
   textRef.style.fontSize = ` ${event.target.value}px`;
+  console.log(event.target.value);
 };
 inputRef.addEventListener("input", textSize);
